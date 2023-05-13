@@ -1,0 +1,5 @@
+repos:
+- repo: https://github.com/pylint-dev/pylint
+  rev: v2.17.4
+  hooks:
+    - id: pylint
