@@ -1,9 +1,11 @@
 # Print string in Vertical
+'''convert string into vertical
+'''
 x = input("Write a word, and I will magicly turn into vertical: ")
 for y in x:
     print(y)
 
-print("\n")   
+print("\n")
 # Slice string
 x = input('Enter a few word sentence: ')
 print("Original Text: ", x)
@@ -23,9 +25,9 @@ print("\n")
 # String Comparison
 x = input("Enter the name of your House: ")
 x = x.lower()
-y = "Slytherin"
+Y = "Slytherin"
 
-if x == y:
+if x == Y:
     print("Your belong to the purest of houses")
 else:
     print("Better be, Gryfindor")
@@ -67,4 +69,3 @@ AA = DATA.find("@")
 BB = DATA.find(' ', AA)
 CC = DATA[AA+1 : BB]
 print("Website domain is: ", CC)
-print("\n")
