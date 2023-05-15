@@ -5,12 +5,12 @@ print("\n")
 print("Your List is =", x)
 print("\n")
 
-count = 0
-total_sum = 0
+COUNT = 0
+TOTAL_SUM = 0
 
 for item in x:
-    count = count + 1
-    total_sum = total_sum + int(item)
+    COUNT = COUNT + 1
+    TOTAL_SUM = TOTAL_SUM + int(item)
 
-print("Total sum of provided numbers in list is:",total_sum)
-print("Average of the provided numbers in list is:", total_sum / count )
+print("Total sum of provided numbers in list is:",TOTAL_SUM)
+print("Average of the provided numbers in list is:", TOTAL_SUM / COUNT )

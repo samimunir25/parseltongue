@@ -9,24 +9,25 @@ my_list = list(map(int, my_list))
 print(my_list)
 print("\n")
 
-smallest_number = None
-largest_number = None
+SMALLEST_NUMBER = None
+LARGEST_NUMBER = None
 
 # Definite loop nested with conditional statements
 
 for item in my_list:
-    if smallest_number is None:
-        smallest_number = item
-    elif item < smallest_number:
-        smallest_number = item
-        
+    if SMALLEST_NUMBER is None:
+        SMALLEST_NUMBER = item
+    elif item < SMALLEST_NUMBER:
+        SMALLEST_NUMBER = item
+          
 for item in my_list:
-    if largest_number is None:
-        largest_number = item
-    elif item > largest_number:
-        largest_number = item
+    if LARGEST_NUMBER is None:
+        LARGEST_NUMBER = item
+    elif item > LARGEST_NUMBER:
+        LARGEST_NUMBER = item
 
 # Print results
 
-print("Smallest number is: ", smallest_number)
-print("Largest number is: ", largest_number)  
+print("Smallest number is: ", SMALLEST_NUMBER)
+
+print("Largest number is: ", LARGEST_NUMBER)
